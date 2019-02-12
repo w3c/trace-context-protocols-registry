@@ -1,2 +1,5 @@
 # trace-context-protocol-mappings
-Trace Context Protocol (non-HTTP) Mappings
+
+Trace Context Protocols Registry
+
+This repository provides a registry of identified formats of trace context serialization and deserialization for protocols.
