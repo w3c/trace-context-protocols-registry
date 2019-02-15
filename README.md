@@ -1,7 +1,17 @@
-# trace-context-protocol-mappings
+# Trace Context: protocols mapping
 
-Trace Context Protocols Registry
+[Trace Context](https://w3c.github.io/trace-context/) Protocols Registry lists
+the specifications defining the mapping of Trace Context fields to different
+communication protocols. These specifications identify formats of trace context
+serialization and de-serialization.
 
-https://w3c.github.io/trace-context-protocols-registry/
+See [Protocols Registry](https://w3c.github.io/trace-context-protocols-registry/).
 
-This repository provides a registry of identified formats of trace context serialization and deserialization for protocols.
+## Team Communication
+
+See [communication](https://github.com/w3c/distributed-tracing-wg#team-communication).
+We appreciate feedback and contributions.
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md).
