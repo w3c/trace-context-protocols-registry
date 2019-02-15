@@ -13,9 +13,11 @@
           // the specification's short name, as in http://www.w3.org/TR/short-name/
           shortName:            "trace-context-protocols-registry",
 
+          format: "markdown",
+
           noRecTrack: true,
           // if there a publicly available Editor's Draft, this is the link
-           edDraftURI:  "https://w3c.github.io/trace-context-protocols-registry/",
+          edDraftURI:  "https://w3c.github.io/trace-context-protocols-registry/",
 
           // editors, add as many as you like
           // only "name" is required
@@ -58,90 +60,45 @@
           // !!!! IMPORTANT !!!! MAKE THE ABOVE BLINK IN YOUR HEAD
       };
     </script>
+    <style>
+      /* 
+         This is a copy of "simple" class of a table from ReSpec
+         https://github.com/w3c/respec/blob/4e9f304f522fe03c21e36c52f732a2abf2908c5c/assets/respec2.css#L80-L108
+       */
+      table {
+        border-spacing: 0;
+        border-collapse: collapse;
+        border-bottom: 3px solid #005a9c;
+      }
+
+      table th {
+        background: #005a9c;
+        color: #fff;
+        padding: 3px 5px;
+        text-align: left;
+      }
+
+      table th[scope="row"] {
+        background: inherit;
+        color: inherit;
+        border-top: 1px solid #ddd;
+      }
+
+      table td {
+        padding: 3px 10px;
+        border-top: 1px solid #ddd;
+      }
+
+      table tr:nth-child(even) {
+        background: #f0f6ff;
+      }
+    </style>
   </head>
   <body>
-    <section id="abstract">
-      <p>This document provides a registry of identified formats of trace context
-        [[!TRACE-CONTEXT]] serialization and deserialization for protocols.</p>
-    </section>
-    <section id="sotd">
-      <p>This is a <strong>registry</strong> and may be updated without any
-    notices.</p>
-    </section>
-    <section id="purpose" class='informative'>
-      <h2>Purpose</h2>
-      <p>Trace context [[TRACE-CONTEXT]] consists of properties crucial for event correlation,
-        used to monitor the health and reliability of a distributed application. The [[TRACE-CONTEXT]]
-        specification defines the binding of the distributed trace context to <code>traceparent</code>
-        and <code>tracestate</code>
-        <a data-cite="TRACE-CONTEXT#trace-context-http-headers-format">HTTP headers</a>.
-      </p>
-      <p>This registry is intended to provide a central location for enumerating
-        identified formats of trace context [[!TRACE-CONTEXT]] serialization and deserialization
-        for protocols. By utilizing a
-        common registry, it is possible to provide common trace context serialization and
-        deserialization for other protocols.
-      </p>
-    </section>
-
-    <section id="Registration_Entry_Requirements_and_Update_Process">
-      <h2>Registration Entry Requirements and Update Process</h2>
-      <ol>
-        <li>
-          Each entry must include a unique protocol, where the scope of uniqueness
-          is the protocol itself.
-        </li>
-        <li>
-          Each entry should include a link that references a public available
-          specification (PAS) that defines the trace context
-          [[!TRACE-CONTEXT]] serialization and deserialization for that protocol.
-        </li>
-        <li>
-          Each entry must include contact information of the requestor.
-        </li>
-      </ol>
-      <p>An update to this registry is an addition, change or deletion of a
-        protocol. Any person can request an update to this registry by email notice
-        to the <a href="https://www.w3.org/2018/distributed-tracing/">Distributed Tracing Working Group</a> who will place it on an
-        upcoming meeting agenda and notify the requestor. Consideration and
-        disposition of the request is by consensus of the <a href="https://www.w3.org/2018/distributed-tracing/">W3C Distributed Tracing Working
-        Group</a>. The Chair will then notify the requestor of the outcome and
-        update the registry accordingly.
-      </p>
-    </section>
-    <section id="registry">
-      <h2>Registry</h2>
-      <p>This section is the registry of identified formats of trace context
-          [[!TRACE-CONTEXT]] serialization and deserialization for protocols.</p>
-      <table class="simple">
-        <thead>
-        </thead>
-        <tbody>
-          <tr>
-            <th style="width: 2%; text-align:left">Protocol</th>
-            <th style="width: 5%; text-align:left">Public Specification(s)</th>
-            <th style="width: 2%; text-align:left">Requestor Contact</th>
-          </tr>
-          <tr>
-            <td><a data-cite="RFC7230#section-3.2">HTTP</a></td>
-            <td>[[!TRACE-CONTEXT]]</td>
-            <td><a rel="nofollow" class="external text" href="https://www.w3.org/2018/distributed-tracing/">W3C</a>
-            </td>
-          </tr>
-          <tr>
-              <td><a data-cite="AMQP">AMQP</a></td>
-              <td><a href="https://w3c.github.io/trace-context/extension-amqp.html">Trace Context: AMQP protocol</a></td>
-              <td><a rel="nofollow" class="external text" href="https://www.w3.org/2018/distributed-tracing/">W3C</a>
-              </td>
-          </tr>
-          <tr>
-              <td>binary</td>
-              <td><a href="https://w3c.github.io/trace-context/extension-binary.html">Trace Context: binary protocol</a></td>
-              <td><a rel="nofollow" class="external text" href="https://www.w3.org/2018/distributed-tracing/">W3C</a>
-              </td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
+    <section id="abstract" data-include="content/abstract.md" data-include-format='markdown'></section>
+    <section id="sotd" data-include="content/sotd.md" data-include-format='markdown'></section>
+    <section class='informative' data-include="content/purpose.md" data-include-format='markdown'></section>
+    <section data-include="content/registration.md" data-include-format='markdown'></section>
+    <section data-include="content/registry.md" data-include-format='markdown'></section>
   </body>
 </html>
