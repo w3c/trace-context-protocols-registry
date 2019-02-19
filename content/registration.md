@@ -13,5 +13,5 @@ person can request an update to this registry by email notice  to the
 Group](https://www.w3.org/2018/distributed-tracing/) who will place it on an
 upcoming meeting agenda and notify the requestor. Consideration and disposition
 of the request is by consensus of the [W3C Distributed Tracing Working
-Group](https://www.w3.org/2018/distributed-tracing/. The Chair will then notify
+Group](https://www.w3.org/2018/distributed-tracing/). The Chair will then notify
 the requestor of the outcome and update the registry accordingly.
