@@ -8,7 +8,7 @@ distributed trace context to `traceparent` and
 data-cite="TRACE-CONTEXT#trace-context-http-headers-format">HTTP headers</a>.
 
 This registry is intended to provide a central location for enumerating
-identified formats of trace context [[!TRACE-CONTEXT]] serialization and
+identified formats of trace context [[TRACE-CONTEXT]] serialization and
 deserialization for protocols. By utilizing a common registry, it is possible to
 provide common trace context serialization and deserialization for other
 protocols.

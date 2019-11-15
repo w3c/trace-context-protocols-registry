@@ -7,4 +7,5 @@ This section is the registry of identified formats of trace context
 | ----------------------------- | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------|
 | HTTP                          | [[!TRACE-CONTEXT]]                                                                                    | [W3C](https://www.w3.org/2018/distributed-tracing/) |
 | Binary                        | [Trace Context: binary protocol](https://w3c.github.io/trace-context-binary/)           | [W3C](https://www.w3.org/2018/distributed-tracing/) |
-| <a data-cite="AMQP">AMQP</a>  | [Trace Context: AMQP protocol](https://w3c.github.io/trace-context-amqp/)               | [W3C](https://www.w3.org/2018/distributed-tracing/) |
+| [[!AMQP]]  | [Trace Context: AMQP protocol](https://w3c.github.io/trace-context-amqp/)               | [W3C](https://www.w3.org/2018/distributed-tracing/) |
+| [[!MQTT]]  | [Trace Context: MQTT protocol](https://w3c.github.io/trace-context-mqtt/)               | [W3C](https://www.w3.org/2018/distributed-tracing/) |

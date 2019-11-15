@@ -39,7 +39,7 @@
           wgPublicList: "public-trace-context",
           wgURI: "https://www.w3.org/2018/distributed-tracing/",
 
-          wgPatentURI:  "https://www.w3.org/2004/01/pp-impl/34314/status",
+          wgPatentURI:  "https://www.w3.org/2004/01/pp-impl/108594/status",
 
           github: {
             repoURL: "https://github.com/w3c/trace-context-protocols-registry/",
@@ -56,10 +56,18 @@
           localBiblio: {
             "AMQP": {
               title: "OASIS Advanced Message Queuing Protocol (AMQP) Version 1.0",
-              href: "http://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-overview-v1.0-os.html",
+              href: "http://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-overview-v1.0.html",
               publisher: "OASIS",
+              status: 'OASIS Standard',
               date: "29 October 2012"
+            },
+            'MQTT': {
+               title: 'MQTT protocol',
+               publisher: 'MQTT.org',
+               href: 'https://mqtt.org/',
+               date: '7 March 2019'
             }
+
         }
           // !!!! IMPORTANT !!!! MAKE THE ABOVE BLINK IN YOUR HEAD
       };
@@ -102,7 +110,7 @@
     <section id="abstract" data-include="content/abstract.md" data-include-format='markdown'></section>
     <section id="sotd" data-include="content/sotd.md" data-include-format='markdown'></section>
     <section class='informative' data-include="content/purpose.md" data-include-format='markdown'></section>
-    <section data-include="content/registration.md" data-include-format='markdown'></section>
-    <section data-include="content/registry.md" data-include-format='markdown'></section>
+    <section data-include="content/registration.md" data-include-format='markdown' class='normative'></section>
+    <section data-include="content/registry.md" data-include-format='markdown' class='normative'></section>
   </body>
 </html>
