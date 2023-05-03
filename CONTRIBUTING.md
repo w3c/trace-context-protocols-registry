@@ -1,7 +1,7 @@
 # Contributing
 
 See distributed tracing working group contributing
-[docs](https://github.com/w3c/distributed-tracing-wg/blob/master/CONTRIBUTING.md)
+[docs](https://github.com/w3c/distributed-tracing-wg/blob/main/CONTRIBUTING.md)
 for a general guidance.
 
 See [Registration Entry Requirements and Update
